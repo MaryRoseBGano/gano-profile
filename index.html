@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">MARY ROSE</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#favorite">Favorites</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#moto">Moto</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Mary Rose</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#favorite" onclick="toggleMenu()">Favorite</a></li>
+        <li><a href="#hobbies" onclick="toggleMenu()">Hobbies</a></li>
+        <li><a href="#moto" onclick="toggleMenu()">Moto</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="me.png" alt="mary rose profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Mary Rose</h1>
+      <p class="section__text__p2">A Computer Science Student</p>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="me2.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h3>Age</h3>
+            <p>20 Years Old<br />Born in November 14, 2003</p>
+          </div>
+          <div class="details-container">
+            <h3>Education</h3>
+            <p>High School Graduate<br />2nd year in Bachelor of Science in Computer Science</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hey there! I’m Mary Rose, just a normal college student
+            who’s all about studying bible. Whether it's diving into the
+            world of bible, jamming out on my guitar, or just
+            chilling with my cat and dog, count me in! I've been at it for 10
+            years now, always learning and having a blast. Let's chat about
+            the latest design trends, share some tunes, or swap stories
+            about our furry friends. Drop me a line, and let's vibe!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="favorite">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Favorites</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Food</h2>
+          <div class="article-container">
+            <article>
+              <div>
+                <h3>Sour</h3>
+                <p>Flavour</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Lychee</h3>
+                <p>Fruit</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Salty</h3>
+                <p>Flavour</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Sweet</h3>
+                <p>Flavour</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Sinigang</h3>
+                <p>Dish</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Pinakbet</h3>
+                <p>Dish</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Genre</h2>
+          <div class="article-container">
+            <article>
+              <div>
+                <h3>Balad</h3>
+                <p>Music</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Drama</h3>
+                <p>Movies</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Rock</h3>
+                <p>Music</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Action</h3>
+                <p>Anime</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Fantasy</h3>
+                <p>Anime</p>
+              </div>
+            </article>
+            <article>
+              <div>
+                <h3>Pop</h3>
+                <p>Music</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="hobbies">
+    <p class="section__text__p1">Let me share my</p>
+    <h1 class="title">Hobbies</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Hobbie One</h2>
+          <h1>Study Bible</h1>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Hobbie Two</h2>
+          <h1>Listening to music</h1>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Hobby Three</h2>
+          <h1>Reading Books</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="moto">
+    <p class="section__text__p1">This is my life</p>
+    <h1 class="title">Moto</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <p>Love Jehova, and he will do anything to make you happy...</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#favorite">Favorites</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#moto">Moto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2022 Mary Rose. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>
